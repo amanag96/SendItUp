@@ -13,6 +13,9 @@
 		751860EF1A6B6C7200E93FA0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 751860EE1A6B6C7200E93FA0 /* Images.xcassets */; };
 		751860F21A6B6C7200E93FA0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 751860F01A6B6C7200E93FA0 /* LaunchScreen.xib */; };
 		751860FE1A6B6C7300E93FA0 /* WarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751860FD1A6B6C7300E93FA0 /* WarTests.swift */; };
+		751861081A6B8DF600E93FA0 /* dollar-bills.png in Resources */ = {isa = PBXBuildFile; fileRef = 751861071A6B8DF600E93FA0 /* dollar-bills.png */; };
+		7518610A1A6B9BE600E93FA0 /* change dolla.001.png in Resources */ = {isa = PBXBuildFile; fileRef = 751861091A6B9BE600E93FA0 /* change dolla.001.png */; };
+		7518610C1A6BA30900E93FA0 /* 10942851_779500135437242_666375376_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7518610B1A6BA30900E93FA0 /* 10942851_779500135437242_666375376_n.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		751860F71A6B6C7300E93FA0 /* WarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		751860FC1A6B6C7300E93FA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		751860FD1A6B6C7300E93FA0 /* WarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarTests.swift; sourceTree = "<group>"; };
+		751861071A6B8DF600E93FA0 /* dollar-bills.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dollar-bills.png"; sourceTree = "<group>"; };
+		751861091A6B9BE600E93FA0 /* change dolla.001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "change dolla.001.png"; sourceTree = "<group>"; };
+		7518610B1A6BA30900E93FA0 /* 10942851_779500135437242_666375376_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10942851_779500135437242_666375376_n.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,9 @@
 		751860E41A6B6C7200E93FA0 /* War */ = {
 			isa = PBXGroup;
 			children = (
+				7518610B1A6BA30900E93FA0 /* 10942851_779500135437242_666375376_n.jpg */,
+				751861091A6B9BE600E93FA0 /* change dolla.001.png */,
+				751861071A6B8DF600E93FA0 /* dollar-bills.png */,
 				751860E71A6B6C7200E93FA0 /* AppDelegate.swift */,
 				751860E91A6B6C7200E93FA0 /* ViewController.swift */,
 				751860EB1A6B6C7200E93FA0 /* Main.storyboard */,
@@ -192,6 +201,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7518610C1A6BA30900E93FA0 /* 10942851_779500135437242_666375376_n.jpg in Resources */,
+				751861081A6B8DF600E93FA0 /* dollar-bills.png in Resources */,
+				7518610A1A6B9BE600E93FA0 /* change dolla.001.png in Resources */,
 				751860ED1A6B6C7200E93FA0 /* Main.storyboard in Resources */,
 				751860F21A6B6C7200E93FA0 /* LaunchScreen.xib in Resources */,
 				751860EF1A6B6C7200E93FA0 /* Images.xcassets in Resources */,
@@ -338,7 +350,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = War/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = War;
 			};
 			name = Debug;
 		};
@@ -348,7 +360,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = War/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = War;
 			};
 			name = Release;
 		};
@@ -366,7 +378,7 @@
 				);
 				INFOPLIST_FILE = WarTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = WarTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/War.app/War";
 			};
 			name = Debug;
@@ -381,7 +393,7 @@
 				);
 				INFOPLIST_FILE = WarTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = WarTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/War.app/War";
 			};
 			name = Release;
